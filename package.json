@@ -1,0 +1,22 @@
+{
+  "name": "me.xw.protobufunity",
+  "version": "1.0.6",
+  "displayName": "ProtobufUnity",
+  "description": "better Protobuf",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/XuToWei/ProtobufUnity.git"
+  },
+  "unity": "2019.4",
+  "documentationUrl": "",
+  "licensesUrl": "https://github.com/XuToWei/ProtobufUnity/blob/master/LICENSE.md",
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "Xu Wei",
+    "email": "",
+    "url": ""
+  }
+}
