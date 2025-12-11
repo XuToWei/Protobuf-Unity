@@ -27,7 +27,7 @@ https://github.com/XuToWei/Protobuf-Unity.git
 
 ```csharp
 // Register custom object pool factory
-ProtoActivator.RegisterCustomFactory<object>((type, nonPublic) => 
+ProtoActivator.RegisterCustomFactory((type, nonPublic) => 
 {
     // Your custom object pool logic here
     // The nonPublic parameter indicates whether to access non-public constructors

@@ -39,7 +39,7 @@ namespace ProtoBuf
         /// 如果自定义实例工厂不为空，则使用自定义实例工厂创建实例
         /// 否则使用Activator.CreateInstance创建实例
         /// </remarks>
-        public static void RegisterCustomFactory<T>(Func<Type, bool, object> factory)
+        public static void RegisterCustomFactory(Func<Type, bool, object> factory)
         {
             customInstanceFactory = factory;
         }
