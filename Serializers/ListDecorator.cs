@@ -3,7 +3,6 @@ using System;
 using System.Collections;
 using ProtoBuf.Meta;
 using System.Reflection;
-using GameFramework;
 
 namespace ProtoBuf.Serializers
 {
